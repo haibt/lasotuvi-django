@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.urls import re_path as url
 
 from lasotuvi_django.views import api, lasotuvi_django_index
 
